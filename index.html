@@ -12,7 +12,7 @@
     <div class="main">
         <h1 class="main__title">Генератор интернет-цитат</h1>
         <div class="main__img-wrap">
-            <img src="images/1.png" id="image" class="main__img show">
+            <img src="1.png" id="image" class="main__img show">
         </div>
         <div class="main__quote-wrap">
             <p id="quote" class="main__quote show">Кто рано встает, тот потом пожалеет о своем решении.</p>
@@ -84,7 +84,7 @@
                     quote.style.justifyContent = '';
                 }
 
-                image.src = 'images/' + randomImg;
+                image.src = randomImg;
                 quote.textContent = randomQuote
                 image.classList.add('show');
                 quote.classList.add('show');
